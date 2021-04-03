@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,15 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70bf837c-90c4-4660-baa1-6af834bfebfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/commander/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commander/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/commander/handler/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commander/handler/numberhandler.go" beforeDir="false" afterPath="$PROJECT_DIR$/commander/handler/numberhandler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commander/websocket/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/commander/websocket/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/node.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pointer.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/pointer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/task.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/go.mod" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/commander/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/message/secretslice.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/message/task.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/ws/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/ws/manager.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/http/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/task/excutor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/task/task.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node/ws/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commander/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/commander/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commander/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commander/handler/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commander/handler/numberhandler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commander/websocket/client.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commander/websocket/clientmanager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/common/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pointer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/task.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/node/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +74,83 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gopath\src\spdzgo\common\ws" />
+      <recent name="D:\gopath\src\spdzgo\common\message\content" />
+      <recent name="D:\gopath\src\spdzgo\common\message" />
       <recent name="D:\gopath\src\spdzgo\common" />
       <recent name="D:\gopath\src\spdzgo\common\data\node" />
     </key>
+  </component>
+  <component name="RunManager" selected="Go Build.commander">
+    <configuration name="commander" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="spdzgo" />
+      <working_directory value="$PROJECT_DIR$/commander" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/commander/main.go" />
+      <package value="spdzgo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/yyl-smpc/spdzgo/node" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="spdzgo" />
+      <working_directory value="$PROJECT_DIR$/node" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/node/main.go" />
+      <package value="github.com/yyl-smpc/spdzgo/node" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="node1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="spdzgo" />
+      <working_directory value="$PROJECT_DIR$/node" />
+      <envs>
+        <env name="HOST" value="127.0.0.1" />
+        <env name="PORT" value="1008" />
+      </envs>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/node/main.go" />
+      <package value="spdzgo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="node2" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="spdzgo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <envs>
+        <env name="HOST" value="127.0.0.1" />
+        <env name="PORT" value="1009" />
+      </envs>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/node/main.go" />
+      <package value="spdzgo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.node2" />
+      <item itemvalue="Go Build.go build github.com/yyl-smpc/spdzgo/node" />
+      <item itemvalue="Go Build.node1" />
+      <item itemvalue="Go Build.commander" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.commander" />
+        <item itemvalue="Go Build.node1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +167,87 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" width="1092" height="757" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617291201591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" width="1092" height="757" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617291201591" />
+    <state x="14" y="105" width="1736" height="856" key="DiffContextDialog" timestamp="1617268704237">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="14" y="105" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617268704237" />
+    <state x="847" y="379" key="EnvironmentVariablesDialog" timestamp="1617291190698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="847" y="379" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617291190698" />
+    <state width="958" height="219" key="GridCell.Tab.0.bottom" timestamp="1617463184855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184855" />
+    <state width="958" height="219" key="GridCell.Tab.0.center" timestamp="1617463184855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184855" />
+    <state width="958" height="219" key="GridCell.Tab.0.left" timestamp="1617463184855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184855" />
+    <state width="958" height="219" key="GridCell.Tab.0.right" timestamp="1617463184855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184855" />
+    <state width="958" height="219" key="GridCell.Tab.1.bottom" timestamp="1617463184781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184781" />
+    <state width="958" height="219" key="GridCell.Tab.1.center" timestamp="1617463184781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184781" />
+    <state width="958" height="219" key="GridCell.Tab.1.left" timestamp="1617463184781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184781" />
+    <state width="958" height="219" key="GridCell.Tab.1.right" timestamp="1617463184781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="958" height="219" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617463184781" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1616900826456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616900826456" />
+    <state x="90" y="152" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1617303885591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="90" y="152" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617303885591" />
+    <state x="502" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1617441906688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="502" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1617441906688" />
+    <state x="1162" y="435" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1617445869720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1162" y="435" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617445869720" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../pkg/mod/github.com/gorilla/websocket@v1.4.2/conn.go</url>
+          <line>656</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;github.com/yyl-smpc/spdzgo/common/message.SliceMessage&quot;)(824634016800)" />
+        <watch expression="ws.Manager" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

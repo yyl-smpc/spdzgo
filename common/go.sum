@@ -1,0 +1,4 @@
+github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=
+github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/yyl-smpc/spdzgo v0.0.0-20210328030253-be518ad705a4 h1:tboDaQac5T78m2fyLRNR0Hat4KmrwznMC+a64MjpbKs=
+github.com/yyl-smpc/spdzgo/node v0.0.0-20210328030253-be518ad705a4 h1:VbM0TFxpKuJ6PFBHDB4cMHrXHwidYG5ekbcrTp90bxA=
